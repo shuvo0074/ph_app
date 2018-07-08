@@ -1,0 +1,77 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>Calcium from coral source</br>
+        <i>Dosage Form & Strength:</i> 1250 mg calcium carbonate & Vitamin D 200 IU</br>
+        <i>Therapeutic Class:</i>Vitamin & Mineral</br>
+        <i>Brand Name Analysis:</i> <font color="#f20707"><i>Coral</i></font> from <font color="#f20707">Coral source</font>,<font color="#f20707"><i>C</i></font> from <font color="#f20707">Vitamin C</font>,<font color="#f20707"><i>D</i></font> from <font color="#f20707">Vitamin D</font></br>
+        <i>Pack Size:</i> 4x10’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Osteoporosis. Vitamin D deficiency, Premenstrual syndrome, Post menopausal women, 
+      Hip fracture & Non-vertebral fracture, rickets , Osteomalacia.</br>
+    <strong>Dosage & Administration:</strong>One tablet in the morning & one tablet at night or as directed by the physician.</br>
+    <strong>Use in Pregnancy:</strong>C</p>
+    <strong>Preparation:</strong></br>
+    <strong>Coral CD Tablet</strong>: 4 X 10`s in Alu-PVDC  pack.</br>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

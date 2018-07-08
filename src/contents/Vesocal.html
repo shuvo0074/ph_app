@@ -1,0 +1,81 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    Generic: Amlodipine 
+    <p class="normal"><i>Brand Slogan:</i>Effective treatment for hypertension</br>
+        <i>Dosage Form & Strength:</i>5 mg & 10 mg Tablet</br>
+        <i>Therapeutic Class:</i>Calcium channel blocker</br>
+        <i>Brand Name Analysis:</i> <font color="#f20707"><i>Cal</i></font>cium channel blocker in <font color="#f20707"><i>veso</i></font>spastic Angina = Vesocal</br>
+        <i>Pack Size:</i> 50’s & 30’s    </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>Patients with mild to moderate hypertension (alone or in combination with other anti-hypertensive). The treatment of chronic stable and vesospastic angina.</br>
+    <strong>Dosage & Administration: </strong></br>
+    For treatment of both hypertension and angina pectoris, the usual initial dose is 5 mg once daily. If the desired therapeutic effect cannot be achieved within 2-4 weeks, the dose may be increased to a maximum dose of 10 mg once daily. 
+    </br>Use in children: Use of Amlodipine in children (under 12 years of age) is not recommended.
+    </br><strong>Use in pregnancy & lactation:</strong>Safety in pregnancy has not been established.</br>
+    <strong>Lactation: </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Vesocal  tablet: </strong> 3 x 50’s in blister pack & 3 x 30’s in blister pack
+        
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

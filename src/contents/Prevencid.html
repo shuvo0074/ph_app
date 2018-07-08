@@ -1,0 +1,77 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>Deliver the different</br>
+        <i>Dosage Form & Strength:</i>20 mg & 40 mg Capsule</br>
+        <i>Therapeutic Class:</i>Anti-ulcerant</br>
+        <i>Brand Name Analysis:</i><font color="#f20707"><i>Preven</i></font> from <font color="#f20707">prevent</font>,<font color="#f20707"><i>cid</i></font> from <font color="#f20707">Acid</font></br>
+        <i>Pack Size:</i>60’s & 20’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Treatment of Gastro-esophageal Reflux Disease (GERD), Healing of erosive esophagitis, Maintenance of healing of erosive esophagitis, Symptomatic Gastro-esophageal Reflux Disease, Risk Reduction of NSAID-associated gastric ulcer, & H. pylori eradication (Triple therapy).</br>
+    <strong>Dosage & Administration:</strong>Prevencid 20 mg/40 mg One daily before meal.</br>
+    <strong>Use in Pregnancy: C</strong></p>
+    <strong>Preparation:</strong></br>
+    <strong>PREVENCID® 20 </strong> Capsule: Box containing 6 x 10 Capsules in Alu-Alu pack.</br>
+    <strong>PREVENCID® 40 </strong> Capsule: Box containing 5 x 4 Capsules in Alu-Alu pack.</br>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

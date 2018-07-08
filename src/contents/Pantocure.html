@@ -1,0 +1,77 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>An Antibiotic for Pediatric Patients</br>
+        <i>Dosage Form & Strength:</i>125 mg/5 ml(oral)</br>
+        <i>Therapeutic Class:</i>Macrolides</br>
+        <i>Brand Name Analysis:</i>Erythromy<font color="#f20707"><i>cin</i></font> for <font color="#f20707">ped</font>iatric patients</br>
+        <i>Pack Size:</i>100’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Treatment of Gastroesophageal Reflux Disease (GERD), Healing of erosive esophagitis, Maintenance of healing of erosive esophagitis, Symptomatic Gastroesophageal Reflux Disease, Risk Reduction of NSAID-associated gastric ulcer, & H. pylori eradication (Triple therapy).</br>
+    <strong>Dosage & Administration:</strong>Pantocure 40 mg tablet once daily before meal.</br>
+    <strong>Use in Pregnancy: </strong>USFDA pregnancy category B. Studies using animals have not found any risk to fetus.</p>
+    <strong>Preparation:</strong></br>
+    <strong>Omag-DR® </strong> 20 Tablet: 10 X 10`s in Alu-Alu blister pack.</br>
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Human Body</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+          * {
+            padding: 0;
+            margin: 0;
+          }
+          .fit { /* set relative picture size */
+            max-width: 100%;
+            max-height: 100%;
+          }
+          .center {
+            display: block;
+            margin: auto;
+          }
+          .dev_margin {
+            margin: 20px;
+
+          }
+          .header {
+            font-weight: bold;
+            font-size:17
+          }
+
+          p {
+            margin-top: 5px;
+          }
+
+          .normal {
+            font-weight: normal;
+            margin-top: 5px;
+            font-size:17
+          }
+
+          .regular {
+            font-weight: normal;
+            font-size:16
+            margin-top: 5px;
+            text-align: justify;
+          }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <img class="img-responsive" src="disease.png" alt="human" usemap="#human"
+         style="width: 100%;
+    max-width: 400px;
+    height: auto;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:15px;">
+
+    <p class="regular">The <strong> Amazing Facts about the Digestive System</strong>
+
+    <ul  class="regular">
+        <li>We eat about 500kg of food per year.</li>
+        <li>1.7 liters of saliva is produced each day.</li>
+        <li>The esophagus is approximately 25cm long.</li>
+        <li>Muscles contract in waves to move the food down the esophagus. This means that food would get to a person's stomach, even if they were standing on their head.</li>
+        <li>An adult's stomach can hold approximately 1.5 liters of material.</li>
+        <li>Every day 11.5 liters of digested food, liquids and digestive juices flow through the digestive system, but only 100 mls is lost in feces.
+            In the mouth, food is either cooled or warmed to a more suitable temperature.</li>
+    </ul>
+
+    </p>
+
+    <map name="human">
+        <area shape="rect" coords="16,115,150,180" href="#Salivary"
+              data-toggle="modal" aria-haspopup="true">
+        <area shape="rect" coords="43,28,130,100" href="#Mouth"
+              data-toggle="modal" aria-haspopup="true">
+    </map>
+</div>
+
+<div id="Salivary" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Salivary Glands</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div id="Mouth" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Mouth</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i> Efficacy Safety & Compliance</br>
+        <i>Dosage Form & Strength:</i> Droxil 500 mg capsule, Droxil GS, Droxil GPD.</br>
+        <i>Therapeutic Class:</i> Antiulcerant</br>
+        <i>Brand Name Analysis:</i> <font color="#f20707"><i>Droxil</i></font> from <font color="#f20707">Cefadroxil</font></br>
+        <i>Pack Size:</i> 100's & 20's</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Pharyngitis, Susceptible infection, Sore throat, Tonsillitis, Urinary Tract infection, Reproductive tracts infection and skin infections.</br>
+    <strong>Dosage & Administration:</strong> Usual dose; Adult: 1-2 gm daily in single or 02 divided doses, Children: >6 years: 500 mg in 02 divided doses,; 1-6 years: 250 mg in 02 divided doses; <1 year: 25-30 mg/kg daily in 02 divided doses.</br>
+    <strong>Use in Pregnancy:</strong>Animal reproduction studies have failed to demonstrate a risk to the fetus and there are no adequate and well controlled studies in pregnant women</p>
+    <strong>Preparation:</strong></br>
+    <strong>Droxil&reg</strong>500 Capsule	: 5x4’s in Alu-Alu blister pack.</br>
+    <strong>Droxil&reg</strong>GPD	: 1’s</br>
+    <strong>Droxil&reg</strong>GS	: 1’s</br>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

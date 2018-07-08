@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> </br>
+        <i>Dosage Form & Strength:</i>5 mg Tablet </br>
+        <i>Therapeutic Class:</i>Antiallergy</br>
+        <i>Brand Name Analysis: </i><font color="#f20707"><i></i></font></br>
+        <i>Pack Size:</i> 5X 10`s </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>Allergic Rhinitis, Chronic Idiopathic Urticaria</br>
+    <strong>Dosage & Administration: </strong></br>
+    Adult & over 12 years: Tablet : One tablet (5 mg) once daily.</br> Child 6-11 years : Tablet : 2.5 mg (half of one 5 mg tablet) once daily. </br>Patients with liver or renal Impairment: A starting dose of one Destacin® Tablet (Desloratadine 5 mg) every other day is recommended</br>
+
+    <strong>Use in pregnancy :</strong></br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Destacin® 5 Tablet: </strong> 5X 10`s tablets in Alu-pvc blister pack</br>
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

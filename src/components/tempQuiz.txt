@@ -1,0 +1,194 @@
+import { StyleSheet, Text, View, 
+  TouchableOpacity,FlatList,Dimensions,
+  Image,Alert,TouchableHighlight,ScrollView,
+  TextInput
+} from 'react-native';
+import React from 'react';
+import { realm,product} from '../data/realmDb'
+import { Actions} from 'react-native-router-flux'
+
+export default class help extends React.Component {
+
+  constructor (props){
+    super(props)
+    this.state = ({
+      pName: null,
+      pGenName: null,
+      W: Dimensions.get('window').width,
+      H: Dimensions.get('window').height,
+
+        })
+      Dimensions.addEventListener('change', () => {
+        this.setState({
+        W: Dimensions.get('window').width,
+        H: Dimensions.get('window').height
+
+      });
+      })
+  }
+  render() {
+    return (
+        <View style={{padding: 10, marginTop: 25}} >
+            <TextInput
+            onChangeText={
+              (txt)=>{
+                this.setState({pName: txt})
+              }
+            }
+            />
+
+            <TextInput
+            onChangeText={
+              (txt)=>{
+                this.setState({pGenName: txt})
+              }
+            }
+            />
+
+            <TouchableOpacity 
+            onPress={()=>{
+              
+              // Write
+
+              realm.write(() => {
+              savedProduct = realm.create('Product', {
+              name: this.state.pName,
+              age: this.state.pGenName,
+              });
+              });
+              
+              Actions.circSystem()
+            }}
+            >
+              <Text>
+                Save
+              </Text>
+            </TouchableOpacity>
+
+            <Text>
+              {product.length()}
+            </Text>
+
+        </View>
+    );
+  }
+}
+
+***************************
+
+<SearchBar
+        lightTheme
+        placeholder='Search' />
+        
+
+
+
+        *******************
+import React from 'react';
+import { View,Text, StyleSheet,WebView , Dimensions,Image } from 'react-native';
+import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
+import QCard from './qCard'
+import Quiz from './quiz'
+
+var ind = null
+const initialLayout = {
+  height: 0,
+  width: Dimensions.get('window').width,
+};
+const FirstRoute = () => 
+<View style={[ styles.container, { backgroundColor: 'white' } ]} >
+<WebView
+        source={ind}
+        style={{flex: 1,}}
+      />
+</View>
+
+const SecondRoute = () => <View style={[ styles.container, { backgroundColor: 'white' } ]} >
+<QCard/>
+</View>
+const ThirdRoute = () => 
+<View style={[ styles.container, { backgroundColor: 'white' } ]} >
+<Quiz/>
+</View>
+;
+
+export default class tabView extends React.Component {
+  state = {
+    index: 0,
+    routes: [
+      { key: 'first', title: 'Details' },
+      { key: 'second', title: 'QCard' },
+      { key: 'third', title: 'Quiz' },
+    ],
+  };
+
+  _handleIndexChange = index => this.setState({ index });
+
+  _renderHeader = props => <TabBar {...props} />;
+
+  _renderScene = SceneMap({
+    first: FirstRoute,
+    second: SecondRoute,
+    third: ThirdRoute,
+  });
+
+  render() {
+    ind = this.props.id
+    return (
+    <View style ={{flex:1}} >
+    <View style = {{backgroundColor: '#0097e6',flexDirection: 'row',}} >
+        <View  style={{padding:5}} >
+        <Image
+        source= {this.props.logo}
+        style={{marginVertical: 20}}
+        />
+        </View>
+        <View style={{marginHorizontal:5,padding:20, }} >
+          <Text style={{fontSize:20,fontWeight:'bold'}}>
+            {this.props.n}
+          </Text>
+          <Text style={{fontSize:20,fontWeight:'bold'}}>
+            {this.props.d} 
+          </Text>
+        </View>
+        
+    </View>
+    <TabView
+        navigationState={this.state}
+        renderScene={this._renderScene}
+        renderHeader={this._renderHeader}
+        onIndexChange={this._handleIndexChange}
+        initialLayout={initialLayout}
+    >
+    </TabView>
+    </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
+
+---------------
+
+<MapView
+          style={[styles.map,{height: 300, width : 350}]}
+          initialRegion={{
+          latitude: 23.764785,
+          longitude:90.389719,
+          latitudeDelta:0.01,
+          longitudeDelta:0.01,
+      }}
+        >
+        <MapView.Marker
+          coordinate={{
+            latitude: 23.764785,
+            longitude:90.389719
+          }}
+          title={'Rangs Pharmaceuticals'}
+          description={'Rangs Pharmaceuticals'}
+        />
+        </MapView>

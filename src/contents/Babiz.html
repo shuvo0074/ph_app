@@ -1,0 +1,82 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> Better development better future</br>
+        <i>Dosage Form & Strength:</i>100 ml & 200 ml syrup </br>
+        <i>Therapeutic Class:</i>Vitamins and Minerals </br>
+        <i>Brand Name Analysis: </i><font color="#f20707"><i>Bab</i></font>Baby + V<font color="#f20707"><i>i</i></font>tamin + <font color="#f20707"><i>Z</i></font>inc</br>
+        <i>Pack Size:</i> 100 ml & 200 ml syrup </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>Treatment and prevention of B-vitamins and Zinc deficiencies </br>
+    <strong>Dosage & Administration: </strong></br>
+    Adult: 10 ml 2 to 3 times daily or as advised by the physician.</br> Children: 10 ml 1 to 3 times daily or as advised by the physician.</br> Infants: 5 ml 1 to 2 times daily or as advised by the physician.</br>
+
+    <strong>Use in pregnancy :</strong>Recommended</br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Babiz® 100 ml Syrup: </strong> Each bottle contains 100 ml syrup</br>    
+    <strong>Babiz® 100 ml Syrup: </strong> Each bottle contains 200 ml syrup</br>    
+    
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

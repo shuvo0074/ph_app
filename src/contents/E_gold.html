@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> Protects body from oxidative damage</br>
+        <i>Dosage Form & Strength:</i> 200 mg & 400 mg LICAP </br>
+        <i>Therapeutic Class:</i> Antioxidant</br>
+        <i>Brand Name Analysis: </i><font color="#f20707"><i>Gold </i></font>like vitamin <font color="#f20707"><i>E</i></font></br>
+        <i>Pack Size:</i> 5 X 10`s (200 mg) & 3 x 10’s (400 mg)</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>Antioxidant, Peripheral neuropathy, Impairment of the immune response, Cystic fibrosis, Hemolytic anemia due to Vitamin E deficiency (in premature infants), Intermittent claudication, Alopecia (hair loss), Muscle crump in female</br>
+    <strong>Dosage & Administration: </strong></br>
+    The daily intake Vitamin E in the range of 200 - 600 mg is considered safe. The recommended dose is one capsule once daily with or after meals or as prescribed by the physician</br>
+    <strong>Use in pregnancy :</strong>Vitamin E is safe in pregnancy and lactation, when used as recommended doses. Higher doses are not established</br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>E-gold® 200 Licap: </strong>5 X 10`s licap in Alu-PVC blister pack</br>
+    <strong>E-gold® 400 Licap: </strong>3 X 10`s licap in Alu-PVC blister pack</br>
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

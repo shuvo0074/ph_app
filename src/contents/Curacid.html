@@ -1,0 +1,84 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i> Superior Acid Reducer</br>
+        <i>Dosage Form & Strength:</i> 20 mg & 40 mg Capsule</br>
+        <i>Therapeutic Class:</i> Antiulcerant</br>
+        <i>Brand Name Analysis:</i> <font color="#f20707"><i>Cur</i></font> from <font color="#f20707">Cure</font>, <font color="#f20707" ><i>acid</i></font> from <font color="#f20707">Acid</font></br>
+        <i>Pack Size:</i> 100's & 20's</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Treatment of Gastroesophageal Reflux Disease (GERD), Healing of erosive
+    esophagitis, Maintenance of healing of erosive esophagitis, Symptomatic Gastroesophageal Reflux
+    Disease, Risk Reduction of NSAID-associated gastric ulcer, & H. pylori eradication (Triple
+    therapy).</br>
+    <strong>Dosage & Administration:</strong> Curacid capsule should be swallowed whole and taken at least one hour
+    before meal.</br>
+    <strong>Use in Pregnancy:</strong> There are no adequate and well-controlled studies on the use of Esomeprazole
+    in pregnant women. Therapeutic doses during pregnancy are unlikely to pose a substantial
+    teratogenic risk. Esomeprazole should be used during pregnancy only if the potential benefit to
+    pregnant women justifies the potential risk to the fetus.</p>
+    <strong>Preparation:</strong></br>
+    <strong>Curacid&reg</strong>20 Capsule: 10 X 10's in Alu-Alu blister pack.</br>
+    <strong>Curacid&reg</strong>40 Capsule : 5 X 4's in Alu-Alu blister pack.</br>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

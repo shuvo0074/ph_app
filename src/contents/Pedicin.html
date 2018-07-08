@@ -1,0 +1,90 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>An Antibiotic for Pediatric Patients</br>
+        <i>Dosage Form & Strength:</i>125 mg/5 ml(oral)</br>
+        <i>Therapeutic Class:</i>Macrolides</br>
+        <i>Brand Name Analysis:</i>Erythromy<font color="#f20707"><i>cin</i></font> for <font color="#f20707">ped</font>iatric patients</br>
+        <i>Pack Size:</i>100 ml bottle</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Upper respiratory tract infections
+      Lower respiratory tract infections
+      Skin and soft tissue infections
+      Veneral infections
+      Gastro-intestinal infections.
+      Ear and oral infections
+      Prophylaxis
+      Other infections</br>
+    <strong>Dosage & Administration:</strong></br>
+    <strong>Adult and Child over 8 years:</strong>250-500 mg every 6 hours or 0.5-1 gm every 12 hours. This may be increased up to 4 gm daily according to severity of infections.</br>
+    <strong>Child of 2-8 years:</strong>250 mg every 6 hours, doses doubled for severe infections.</br>
+    <strong>Child up to 2 years:</strong>125 mg every 6 hours.</br>
+    <strong>Neonates:</strong>30 to 45 mg/kg daily in 3 divided doses. </br>
+    <strong>Elderly:</strong>Same as for adults.</br>
+    <strong>Use in Pregnancy: </strong>There are no adequate and well-controlled studies in pregnant women about administration of Erythromycin therefore; this drug should be used during pregnancy only if clearly needed.</p>
+    <strong>Lactation: </strong>Erythromycin is excreted in breast milk; therefore, caution should be exercised when Erythromycin is administered to a nursing woman.</p>
+    <strong>Preparation:</strong></br>
+    <strong>PEDICIN® </strong> Granules for Suspension: Bottle containing granules to produce 100 ml of suspension when reconstituted.</br>
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

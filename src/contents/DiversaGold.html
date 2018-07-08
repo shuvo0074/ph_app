@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> High potency multivitamin-multimineral</br>
+        <i>Dosage Form & Strength:</i> Tablet</br>
+        <i>Therapeutic Class:</i> Multivitamin-multimineral</br>
+        <i>Brand Name Analysis: </i> <font color="#f20707"><i>Divers</i></font>ified use of vitamins & minerals</br>
+        <i>Pack Size:</i> 15’s & 30’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>This preparation (Multivitamin / Multimineral nutritional supplement) is indicated for the prevention and treatment of vitamin - minerals deficiency</br>
+    <strong>Dosage & Administration: </strong></br>
+    One tablet daily or as directed by a physician</br>
+    <strong>Use in pregnancy :</strong>Recommended </br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Diversa Gold® Tablet: </strong>15`s  & 30’s tablets in phial</br>
+
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

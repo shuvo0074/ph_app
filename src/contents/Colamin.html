@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> The only neuroactive vitamin B12</br>
+        <i>Dosage Form & Strength:</i> Mecobalamin  0.5 mg Tablet</br>
+        <i>Therapeutic Class:</i> Drugs for Megaloblastic Anemia</br>
+        <i>Brand Name Analysis: </i> Me<font color="#f20707"><i>co</i></font>ba<font color="#f20707"><i>lamin</i></font></br>
+        <i>Pack Size:</i> 30`s </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>Peripheral Neuropathies, Diabetic Neuropathy, Verteberal Syndrome, Nerve Compression Syndrome, Multiple sclerosis, Amyotrophic lateral sclerosis, Parkinson’s disease, Alzheimer’s disease, Diabetic retinopathy, Entrapment neuropathy, Drug induced neuropathy, Megaloblastic anemia due to Vitamin B12 deficiency</br>
+    <strong>Dosage & Administration: </strong></br>
+    Tablet: The usual adult dosage is one 500 mcg tablet three times daily. The dosage should be adjusted according to the age of patient and the severity of symptoms.</br>
+    <strong>Use in pregnancy :</strong> Not recommended during pregnancy & lactation </br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Colamin tablet: </strong> Each pack contains 3 x 10's tablets</br>
+
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

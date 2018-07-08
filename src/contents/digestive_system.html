@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Human Body</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+          * {
+            padding: 0;
+            margin: 0;
+          }
+          .fit { /* set relative picture size */
+            max-width: 100%;
+            max-height: 100%;
+          }
+          .center {
+            display: block;
+            margin: auto;
+          }
+          .dev_margin {
+            margin: 20px;
+
+          }
+          .header {
+            font-weight: bold;
+            font-size:17
+          }
+
+          p {
+            margin-top: 5px;
+          }
+
+          .normal {
+            font-weight: normal;
+            margin-top: 5px;
+            font-size:17
+          }
+
+          .regular {
+            font-weight: normal;
+            font-size:17
+            margin-top: 5px;
+            padding:5px;
+            text-align: justify;
+          }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <img class="img-responsive" src="pic.png" alt="human" usemap="#human"
+         style="width: 100%;
+    max-width: 400px;
+    height: auto;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:15px;">
+
+    <p class="regular">
+
+    <ul class="regular">
+        <li>The <strong>digestive system</strong> is a group of organs working together to convert food into energy and basic nutrients to feed the entire body</li>
+        <li>The GI tract is a series of hollow organs joined in a long, twisting tube from the mouth to the anus. The hollow organs that make up the GI tract are the mouth, esophagus, stomach, small intestine, large intestine, and anus. The liver, pancreas, and gallbladder are the solid organs of the digestive system.</li>
+    </ul>
+    </p>
+
+    <map name="human">
+
+        <area shape="rect" coords="43,28,97,97" href="#Mouth"
+              data-toggle="modal" aria-haspopup="true">
+
+        <area shape="rect" coords="16,115,150,180" href="#Salivary"
+              data-toggle="modal" aria-haspopup="true">
+
+
+        <area shape="rect" coords="100,115,150,180" href="#SmallIntestine"
+              data-toggle="modal" aria-haspopup="true">
+
+    </map>
+</div>
+
+<div id="Mouth" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Mouth</h4>
+            </div>
+            <div class="modal-body">
+                <p class="regular">Palate , Uvula, Tongue, teeth are main part of Mouth.
+
+                In human anatomy, the mouth is the first portion of the alimentary canal that receives food and produces saliva.[1] The oral mucosa is the mucous membrane epithelium lining the inside of the mouth.
+
+                In addition to its primary role as the beginning of the digestive system, in humans the mouth also plays a significant role in communication. While primary aspects of the voice are produced in the throat, the tongue, lips, and jaw are also needed to produce the range of sounds included in human language.
+
+                The mouth consists of two regions, the vestibule and the oral cavity proper. The mouth, normally moist, is lined with a mucous membrane, and contains the teeth. The lips mark the transition from mucous membrane to skin, which covers most of the body.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="Salivary" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Salivary Glands</h4>
+            </div>
+            <div class="modal-body">
+                <p class="regular">The salivary glands in mammals are exocrine glands that produce saliva through a system of ducts. Humans have three paired major salivary sands(parotid, submandibular, and sublingual) as well as hundreds of minor salivary glands.[1] Salivary glands can be classified as serous, mucous or seromucous (mixed).
+
+                    In serous secretions, the main type of protein secreted is ptyalin (alpha-amylase), an enzyme that breaks down starch into maltose and glucose,[2] whereas in mucous secretions the main protein secreted is mucin, which acts as a lubricant.[1]
+
+                    In humans, between 0.5 and 1.5 litres of saliva are produced every day.[3] The secretion of saliva (salivation) is mediated by parasympathetic stimulation; acetylcholine is the active neurotransmitter and binds to muscularity receptors in the glands, leading to increased salivation.[3][4]</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="SmallIntestine" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Small Intestine</h4>
+            </div>
+            <div class="modal-body">
+                <p class="regular">The small intestine or small bowel is the part of the gastrointestinal tract between the stomach and the large intestine, and is where most of the end absorption of food takes place. The small intestine has three distinct regions – the duodenum, jejunum, and ileum. The duodenum is the shortest part of the small intestine and is where preparation for absorption begins. It also receives bile and pancreatic juice through the pancreatic duct, controlled by the sphincter of Oddi. The primary function of the small intestine is the absorption of nutrients and minerals from food, using small finger-like protrusions called villi.[2]</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>Optimum control for hyper-acidic condition</br>
+        <i>Dosage Form & Strength:</i>150 mg Tablet</br>
+        <i>Therapeutic Class:</i>H2 receptor antagonist</br>
+        <i>Brand Name Analysis:</i><font color="#f20707"><i>Z</i></font> from <font color="#f20707">Zollinger</font>,<font color="#f20707"><i>e</i></font> from <font color="#f20707">ellision</font> & <font color="#f20707"><i>nil</i></font> from <font color="#f20707">Nil</font></br>
+        <i>Pack Size:</i>100’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications:</strong>Duodenal ulcer, Gastric ulcer, Reflux oesophagitis, Zollinger-Ellison syndrome, post operative ulcer, Mendelson's syndrome.</br>
+    <strong>Dosage & Administration:</strong>150 mg twice daily or 300 mg single dose. Maintenance therapy: 150 mg at night. Injection: 50 mg, slow IV every six to eight hourly. Children: 2 mg/kg-4 mg/kg twice daily to a maximum 300 mg/day. Injection is not indicated for children.</br>
+    <strong>Use in Pregnancy:Pregnancy category B.</strong></p>
+    <strong>Preparation:</strong></br>
+    <strong>Zenil®</strong> 150 tablet : Each box containing 10 X 10 tablets in Alu-Alu blister pack.</br>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

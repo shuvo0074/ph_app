@@ -1,0 +1,79 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Brand Slogan:</i> Mineral supplement for pregnant women</br>
+        <i>Dosage Form & Strength:</i>Capsule </br>
+        <i>Therapeutic Class:</i>Mineral supplement </br>
+        <i>Brand Name Analysis:</i><font color="#f20707"><i>Min</i></font>eral supplement for <font color="#f20707"><i>Preg</i></font>nant women </br>
+        <i>Pack Size:</i> 5 X 10`s </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong>: It is indicated for the treatment and prophylaxis of iron and folic acid deficiency especially during pregnancy and lactation</br>
+    <strong>Dosage & Administration: </strong> One capsule daily. In more severe cases, 2 capsules daily may be used or as directed by the physician </br>
+    <strong>Use in pregnancy :</strong> Recommended </br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Pregmin® Capsule: </strong> 5 X 10`s capsules in Alu-PVC blister pack</br>    
+    
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

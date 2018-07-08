@@ -1,0 +1,81 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal"><i>Brand Slogan:</i>Seeking to calm the storm</br>
+        <i>Dosage Form & Strength:</i>Flupentixol 0.5 mg & Melitracen 10 mg</br>
+        <i>Therapeutic Class:</i>Combined anxiolytics & anti-depressant drugs</br>
+        <i>Brand Name Analysis:</i>From <font color="#f20707"><i>depres</i></font>sive <font color="#f20707"><i>il</i></font>lness</br>
+        <i>Pack Size:</i>50’s</p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: Anxiety & Depression, Psychogenic affection, Functional Dyspepsia, Personality Disorder.</strong></br>
+    <strong>Dosage & Administration: Oryx®</strong></br>
+    Adults: Usually 2 tablets daily: morning and noon. In severe cases the morning dose may be increased to 2 tablets. 
+    </br>Elderly patients: 1 tablet in the morning. 
+    </br>Maintenance dose: Usually 1 tablet in the morning. In case of insomnia and severe restlessness additional treatment with sedative in the acute phase is recommended
+    <strong>Use in pregnancy & lactation:</strong>: Flupentixol-Melitracen should preferably not be given during pregnancy and lactation</br>
+    <strong>Lactation: </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Depresil Tablet: </strong>Box containing 3 X 10’s, 5 X 10’s, 10 X 10’s tablets in strip/blister pack.</br>
+    
+    
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+

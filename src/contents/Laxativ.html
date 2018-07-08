@@ -1,0 +1,82 @@
+<html>
+<head>
+    <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+  .dev_margin {
+    margin: 20px;
+    
+  }
+  .header {
+  	font-weight: bold;
+  	font-size:17
+  }
+
+  p {
+  	margin-top: 5px;
+  }
+
+  .normal {
+  	font-weight: normal;
+  	margin-top: 5px;
+  	font-size:17
+  }
+
+  .regular {
+  	font-weight: normal;
+  	font-size:16;
+  	margin-top: 5px;
+  	text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="dev_margin">
+    <p class="header">Product Summary</p>
+    <p class="normal">
+        <i>Generic: </i>Lactulose</br>
+        <i>Brand Slogan: </i>Starts a floral day</br>
+        <i>Dosage Form & Strength: </i> 3.40 mg/ 5 ml </br>
+        <i>Therapeutic Class:</i> Osmotic purgatives </br>
+        <i>Brand Name Analysis: </i> From therapeutic class osmotic <font color="#f20707"><i>Laxative</i></font> </br>
+        <i>Pack Size:</i> 100 ml & 200 ml    </p>
+    <p class="header">Prescribing Information</p>
+    <p class="regular"> <strong>Indications: </strong></br>Chronic and habitual constipation, Chronic Portal-systemic encephalopathy </br>
+    <strong>Dosage & Administration: </strong></br>
+    Adults: Initially 15 ml twice daily, adjusted according to patient's need.
+    </br>Children: Under 1 year: 2.5 ml twice daily , 1-5 years: 5 ml twice daily , 5-10 years: 10 ml twice daily
+    </br>Hepatic encephalopathy: 30-50 ml 3 times daily, subsequently adjusted to produce 2-3 soft stools daily</br>
+    <strong>Use in pregnancy & Lactation :</strong>Pregnancy Category B. Lactulose oral solution has been shown to be safe and effective for the treatment of constipation associated with pregnancy when administered to women at different stages of pregnancy </br>
+    <strong> </strong></br>
+    <strong>Preparation:</strong></br>
+    <strong>Normogut Syrup :</strong>Each bottle contain 100 ml concentrated suspension</br>    
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
+
+
+
+
+
