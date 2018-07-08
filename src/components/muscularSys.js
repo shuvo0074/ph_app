@@ -6,7 +6,7 @@ import { StyleSheet, Text, View,
 import React from 'react';
 import { Actions} from 'react-native-router-flux'
 
-export default class help extends React.Component {
+export default class muscularSys extends React.Component {
 
   constructor (props){
     super(props)
@@ -27,10 +27,11 @@ export default class help extends React.Component {
   }
   render() {
     return (
-        <View style={{flex:1,alignItems: 'center'}} >
+        <View style={{flex:1,alignItems: 'center',padding: 5,width: this.state.W}} >
         <Image
-        source= {require('../contents/circulatory_system.png')}
+        source= {require('../contents/muscular_system.png')}
         style={{flex:1,width: this.state.W}}
+        resizeMethod={'scale'}
         />
 
         </View>

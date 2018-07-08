@@ -24,17 +24,17 @@ export default class home extends React.Component {
   onPressDigSysButton(){
     Actions.digSystem()
   }
-  onPressQuizButton(){
-    Actions.quiz()
+  onPressMuscularSysButton(){
+    Actions.muscularSys()
   }
-  onPressContactButton(){
-    Actions.contact()
+  onPressNervousSysButton(){
+    Actions.nervousSys()
   }
-  onPressAboutButton(){
-    Actions.about()
+  onPressRespiratorySysButton(){
+    Actions.respiratorySys()
   }
-  onPressHelpButton(){
-    Actions.help()
+  onPressUrinarySysButton(){
+    Actions.urinarySys()
   }
 
   render() {
@@ -50,12 +50,12 @@ export default class home extends React.Component {
       >
       <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
         <Image 
-        source={require('../contents/dig_system.png')} 
+        source={require('../contents/circulatory_system.png')} 
         style= {{height: 70, width: 70, margin: 10, padding: 5,}}
         />
         <View style={{width: this.state.W-110}} >
-          <Text style={styles.listItemFonts}>Human Circulatory system</Text>
-          <Text> Human Circulatory system</Text>
+          <Text style={styles.listItemFonts}>Circulatory system</Text>
+          <Text> Circulates blood around the body via the heart , arteries and veins. Delivering oxygen and nutrients to the organs and cells and carrying their waste products away.</Text>
         </View>
       </View>
       </TouchableOpacity>
@@ -65,12 +65,72 @@ export default class home extends React.Component {
       >
       <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
         <Image 
-        source={require('../contents/dig_system.png')} 
+        source={require('../contents/pic2.png')} 
         style= {{height: 70, width: 70, margin: 10, padding: 5,}}
         />
         <View style={{width: this.state.W-110}} >
           <Text style={styles.listItemFonts}>Digestive system</Text>
-          <Text>Human digestive system</Text>
+          <Text>Mechanical Chemical processes that provide nutrients via the mouth, esophagus, stomach and intestines.</Text>
+        </View>
+      </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+      onPress={this.onPressMuscularSysButton}
+      >
+      <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
+        <Image 
+        source={require('../contents/muscular_system.png')} 
+        style= {{height: 70, width: 70, margin: 10, padding: 5,}}
+        />
+        <View style={{width: this.state.W-110}} >
+          <Text style={styles.listItemFonts}>Muscular system</Text>
+          <Text>Enables the body to move using muscles</Text>
+        </View>
+      </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+      onPress={this.onPressNervousSysButton}
+      >
+      <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
+        <Image 
+        source={require('../contents/nervous_system.png')} 
+        style= {{height: 70, width: 70, margin: 10, padding: 5,}}
+        />
+        <View style={{width: this.state.W-110}} >
+          <Text style={styles.listItemFonts}>Nervous system</Text>
+          <Text>Collects and processes informations from the senses via nerves and the brain and tells the muscle to contact tocause physical actions. </Text>
+        </View>
+      </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+      onPress={this.onPressUrinarySysButton}
+      >
+      <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
+        <Image 
+        source={require('../contents/urinary_system.png')} 
+        style= {{height: 70, width: 70, margin: 10, padding: 5,}}
+        />
+        <View style={{width: this.state.W-110}} >
+          <Text style={styles.listItemFonts}>Renal system/ urinary system</Text>
+          <Text>The system where the kidneys filter blood</Text>
+        </View>
+      </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+      onPress={this.onPressRespiratorySysButton}
+      >
+      <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
+        <Image 
+        source={require('../contents/respiratory_system.png')} 
+        style= {{height: 70, width: 70, margin: 10, padding: 5,}}
+        />
+        <View style={{width: this.state.W-110}} >
+          <Text style={styles.listItemFonts}>Respiratory system system</Text>
+          <Text>The lungs and the trachea that brings air into and out of the body. </Text>
         </View>
       </View>
       </TouchableOpacity>

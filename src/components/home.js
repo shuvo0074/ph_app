@@ -74,7 +74,7 @@ export default class home extends React.Component {
       >
       <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
         <Image 
-        source={require('../contents/dig_system.png')} 
+        source={require('../contents/human_body.png')} 
         style= {{height: 70, width: 70, margin: 10, padding: 5,}}
         />
         <View style={{width: this.state.W-110}} >
@@ -89,7 +89,7 @@ export default class home extends React.Component {
       >
       <View style={[ styles.contentStyle, { width: this.state.W -10, } ]}>
         <Image 
-        source={require('../contents/dig_system.png')} 
+        source={require('../contents/model_talk.png')} 
         style= {{height: 70, width: 70, margin: 10, padding: 5,}}
         />
         <View style={{width: this.state.W-110}} >

@@ -16,6 +16,10 @@ import Help from './src/components/help'
 import HumanBodyparts from './src/components/humanBodyparts'
 import Talk from './src/components/talk'
 import CircSystem from './src/components/circSystem'
+import MuscularSys from './src/components/muscularSys'
+import NervousSys from './src/components/nervousSys'
+import RespiratorySys from './src/components/respiratorySys'
+import UrinarySys from './src/components/urinarySys'
 
 export default class App extends Component<{}> {
   render() {
@@ -53,6 +57,30 @@ export default class App extends Component<{}> {
       key="circSystem"
       component={CircSystem}
       title="Circulatory System"
+      />
+
+      <Scene
+      key="muscularSys"
+      component={MuscularSys}
+      title="Muscular System"
+      />
+
+      <Scene
+      key="nervousSys"
+      component={NervousSys}
+      title="Nervous System"
+      />
+
+      <Scene
+      key="respiratorySys"
+      component={RespiratorySys}
+      title="Respiratory System"
+      />
+
+      <Scene
+      key="urinarySys"
+      component={UrinarySys}
+      title="Urinary System"
       />
 
       <Scene
