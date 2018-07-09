@@ -4,7 +4,9 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Image,
+  ToastAndroid,
 } from 'react-native';
 import Home from './src/components/home'
 import Products from './src/components/products'

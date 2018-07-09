@@ -9,7 +9,7 @@ var prod = require('../contents/product.html')
 
 var productsData = [
     {
-        "key":"a1",
+        "key":1,
         "name":" Alverin",
         "desc":" Alverine citrate .",
         "imageS": require('../contents/Alverin.png') ,
@@ -17,7 +17,7 @@ var productsData = [
 
     },
     {
-        "key":"a2",
+        "key":2,
         "name":"Ancotil ",
         "desc":" Bromazepam .",
         "imageS": require('../contents/Ancotil.png') ,
@@ -25,7 +25,7 @@ var productsData = [
 
     },
     {
-        "key":"a3",
+        "key":3,
         "name":"Antif ",
         "desc":" Amoxycillin .",
         "imageS": require('../contents/Antif.png') ,
@@ -33,7 +33,7 @@ var productsData = [
 
     },
     {
-        "key":"a4",
+        "key":4,
         "name":"AntiPro ",
         "desc":" Metronidazole .",
         "imageS": require('../contents/AntiPro.png') ,
@@ -41,7 +41,7 @@ var productsData = [
 
     },
     {
-        "key":"a5",
+        "key":5,
         "name":"Artiflex ",
         "desc":"  ",
         "imageS": require('../contents/Artiflex.png') ,
@@ -49,7 +49,7 @@ var productsData = [
 
     },
     {
-        "key":"a6",
+        "key":6,
         "name":"Babiz ",
         "desc":" Vitamin B complex and Zinc .",
         "imageS": require('../contents/Babiz.png') ,
@@ -57,7 +57,7 @@ var productsData = [
 
     },
     {
-        "key":"a7",
+        "key":7,
         "name":"Bactab ",
         "desc":" Baclofen BP",
         "imageS": require('../contents/Bactab.png') ,
@@ -65,7 +65,7 @@ var productsData = [
 
     },
     {
-        "key":"a8",
+        "key":8,
         "name":"Cleomycin300 ",
         "desc":" Clindamycin ",
         "imageS": require('../contents/Cleomycin300.png') ,
@@ -73,7 +73,7 @@ var productsData = [
 
     },
     {
-        "key":"a9",
+        "key":9,
         "name":"CodOil",
         "desc":"Cod liver oil",
         "imageS": require('../contents/CodOil.png') ,
@@ -81,7 +81,7 @@ var productsData = [
 
     },
     {
-        "key":"a10",
+        "key":10,
         "name":"Colamin",
         "desc":"Mecobalamin",
         "imageS": require('../contents/Colamin.png') ,
@@ -89,7 +89,7 @@ var productsData = [
 
     },
     {
-        "key":"a11",
+        "key":11,
         "name":"CoralCd",
         "desc":"Calcium Carbonate from coral source",
         "imageS": require('../contents/CoralCd.png') ,
@@ -97,7 +97,7 @@ var productsData = [
 
     },
     {
-        "key":"a12",
+        "key":12,
         "name":"Curacid",
         "desc":"Esomeprazole",
         "imageS": require('../contents/Curacid.png') ,
@@ -105,7 +105,7 @@ var productsData = [
 
     },
     {
-        "key":"a13",
+        "key":13,
         "name":"Depanil",
         "desc":"Clonazepam",
         "imageS": require('../contents/Depanil.png') ,
@@ -113,7 +113,7 @@ var productsData = [
 
     },
     {
-        "key":"a14",
+        "key":14,
         "name":"Depresil",
         "desc":"Flupenthixol & Melitracen",
         "imageS": require('../contents/Depresil.png') ,
@@ -121,7 +121,7 @@ var productsData = [
 
     },
     {
-        "key":"a15",
+        "key":15,
         "name":"Destacin",
         "desc":"Deslaretodine",
         "imageS": require('../contents/Destacin.png') ,
@@ -129,7 +129,7 @@ var productsData = [
 
     },
     {
-        "key":"a16",
+        "key":16,
         "name":"DiversaGold",
         "desc":"A to Z",
         "imageS": require('../contents/DiversaGold.png') ,
@@ -137,7 +137,7 @@ var productsData = [
 
     },
     {
-        "key":"a17",
+        "key":17,
         "name":"Droxil",
         "desc":"Cefadroxil",
         "imageS": require('../contents/Droxil.png') ,
@@ -145,7 +145,7 @@ var productsData = [
 
     },
     {
-        "key":"a18",
+        "key":18,
         "name":"Dysma",
         "desc":"Tiemonium Methylsulphate",
         "imageS": require('../contents/Dysma.png') ,
@@ -153,7 +153,7 @@ var productsData = [
 
     },
     {
-        "key":"a19",
+        "key":19,
         "name":"E_gold",
         "desc":"Vitamin E",
         "imageS": require('../contents/E_gold.png') ,
@@ -161,7 +161,7 @@ var productsData = [
 
     },
     {
-        "key":"a20",
+        "key":20,
         "name":"Fenargic",
         "desc":"Fexofenadine",
         "imageS": require('../contents/Fenargic.png') ,
@@ -169,7 +169,7 @@ var productsData = [
 
     },
     {
-        "key":"a21",
+        "key":21,
         "name":"Fungitrol",
         "desc":"Fluconazole",
         "imageS": require('../contents/Fungitrol.png') ,
@@ -177,7 +177,7 @@ var productsData = [
 
     },
     {
-        "key":"a22",
+        "key":22,
         "name":"Kenodol",
         "desc":"Ketorolac tromethamine",
         "imageS": require('../contents/Kenodol.png') ,
@@ -185,7 +185,7 @@ var productsData = [
 
     },
     {
-        "key":"a23",
+        "key":23,
         "name":"Laxativ",
         "desc":"Lactulose",
         "imageS": require('../contents/Laxativ.png') ,
@@ -193,7 +193,7 @@ var productsData = [
 
     },
     {
-        "key":"a24",
+        "key":24,
         "name":"Lethiquin",
         "desc":"Levofloxacin",
         "imageS": require('../contents/Lethiquin.png') ,
@@ -201,7 +201,7 @@ var productsData = [
 
     },
     {
-        "key":"a25",
+        "key":25,
         "name":"Lindex",
         "desc":"Cephradine",
         "imageS": require('../contents/Lindex.png') ,
@@ -209,7 +209,7 @@ var productsData = [
 
     },
     {
-        "key":"a26",
+        "key":26,
         "name":"Lipicut",
         "desc":"Atorvastatin",
         "imageS": require('../contents/Lipicut.png') ,
@@ -217,7 +217,7 @@ var productsData = [
 
     },
     {
-        "key":"a27",
+        "key":27,
         "name":"Losartium50",
         "desc":"Losartan Potassium",
         "imageS": require('../contents/Losartium50.png') ,
@@ -225,7 +225,7 @@ var productsData = [
 
     },
     {
-        "key":"a28",
+        "key":28,
         "name":"Losartium_H",
         "desc":"Losartan Potassium and Hydrochlorothiazide",
         "imageS": require('../contents/Losartium_H.png') ,
@@ -233,7 +233,7 @@ var productsData = [
 
     },
     {
-        "key":"a29",
+        "key":29,
         "name":"Maxbac",
         "desc":"Ceftazidime",
         "imageS": require('../contents/Maxbac.png') ,
@@ -241,7 +241,7 @@ var productsData = [
 
     },
     {
-        "key":"a30",
+        "key":30,
         "name":"Maxflo_U",
         "desc":"Tamsulosin HCl",
         "imageS": require('../contents/Maxflo_U.png') ,
@@ -249,7 +249,7 @@ var productsData = [
 
     },
     {
-        "key":"a31",
+        "key":31,
         "name":"Merotic",
         "desc":"",
         "imageS": require('../contents/Merotic.png') ,
@@ -257,7 +257,7 @@ var productsData = [
 
     },
     {
-        "key":"a32",
+        "key":32,
         "name":"MonproX",
         "desc":"Montelukast",
         "imageS": require('../contents/MonproX.png') ,
@@ -265,7 +265,7 @@ var productsData = [
 
     },
     {
-        "key":"a33",
+        "key":33,
         "name":"Neurodol",
         "desc":"Vitamin b1 b6 b12",
         "imageS": require('../contents/Neurodol.png') ,
@@ -273,7 +273,7 @@ var productsData = [
 
     },
     {
-        "key":"a34",
+        "key":34,
         "name":"Ngcef",
         "desc":"Cefixime",
         "imageS": require('../contents/Ngcef.png') ,
@@ -281,7 +281,7 @@ var productsData = [
 
     },
     {
-        "key":"a35",
+        "key":35,
         "name":"Normogut",
         "desc":"Domperidone",
         "imageS": require('../contents/Normogut.png') ,
@@ -289,7 +289,7 @@ var productsData = [
 
     },
     {
-        "key":"a36",
+        "key":36,
         "name":"NT_par",
         "desc":"Albendazole",
         "imageS": require('../contents/NT_par.png') ,
@@ -297,7 +297,7 @@ var productsData = [
 
     },
     {
-        "key":"a37",
+        "key":37,
         "name":"Omag_DR",
         "desc":"Omeprazole",
         "imageS": require('../contents/Omag_DR.png') ,
@@ -305,7 +305,7 @@ var productsData = [
 
     },
     {
-        "key":"a38",
+        "key":38,
         "name":"OrafenPlus",
         "desc":"Diclofenac Sodium & idocaine Cl",
         "imageS": require('../contents/OrafenPlus.png') ,
@@ -313,7 +313,7 @@ var productsData = [
 
     },
     {
-        "key":"a39",
+        "key":39,
         "name":"OrafenSR",
         "desc":"Diclofenac Sodium",
         "imageS": require('../contents/OrafenSR.png') ,
@@ -321,7 +321,7 @@ var productsData = [
 
     },
     {
-        "key":"a40",
+        "key":40,
         "name":"Oryx",
         "desc":"Ceftriaxone",
         "imageS": require('../contents/Oryx.png') ,
@@ -329,7 +329,7 @@ var productsData = [
 
     },
     {
-        "key":"a41",
+        "key":41,
         "name":"Ostacid",
         "desc":"Calcium Carbonate",
         "imageS": require('../contents/Ostacid.png') ,
@@ -337,7 +337,7 @@ var productsData = [
 
     },
     {
-        "key":"a42",
+        "key":42,
         "name":"Ostacid_D",
         "desc":"Calcium & Vitamin D",
         "imageS": require('../contents/Ostacid_D.png') ,
@@ -345,7 +345,7 @@ var productsData = [
 
     },
     {
-        "key":"a43",
+        "key":43,
         "name":"Pantocure",
         "desc":"Pantoprazole BP",
         "imageS": require('../contents/Pantocure.png') ,
@@ -353,7 +353,7 @@ var productsData = [
 
     },
     {
-        "key":"a44",
+        "key":44,
         "name":"Pedicin",
         "desc":"Erythromycin",
         "imageS": require('../contents/Pedicin.png') ,
@@ -361,7 +361,7 @@ var productsData = [
 
     },
     {
-        "key":"a45",
+        "key":45,
         "name":"PediZinc",
         "desc":"Zinc sulphate USP",
         "imageS": require('../contents/PediZinc.png') ,
@@ -369,7 +369,7 @@ var productsData = [
 
     },
     {
-        "key":"a46",
+        "key":46,
         "name":"Perpen",
         "desc":"Flucloxicilin",
         "imageS": require('../contents/Perpen.png') ,
@@ -377,7 +377,7 @@ var productsData = [
 
     },
     {
-        "key":"a47",
+        "key":47,
         "name":"Pregmin",
         "desc":"Carbonyl Iron & Folic Acid",
         "imageS": require('../contents/Pregmin.png') ,
@@ -385,7 +385,7 @@ var productsData = [
 
     },
     {
-        "key":"a48",
+        "key":48,
         "name":"Pregmin_Z",
         "desc":"Carbonyl Iron,Folic Acid & Zinc",
         "imageS": require('../contents/Pregmin_Z.png') ,
@@ -393,7 +393,7 @@ var productsData = [
 
     },
     {
-        "key":"a49",
+        "key":49,
         "name":"Prevencid",
         "desc":"Omeprazole",
         "imageS": require('../contents/Prevencid.png') ,
@@ -401,7 +401,7 @@ var productsData = [
 
     },
     {
-        "key":"a50",
+        "key":50,
         "name":"Ranflox",
         "desc":"Ciprofloxacin",
         "imageS": require('../contents/Ranflox.png') ,
@@ -409,7 +409,7 @@ var productsData = [
 
     },
     {
-        "key":"a51",
+        "key":51,
         "name":"Ranoxen",
         "desc":"Naproxen",
         "imageS": require('../contents/Ranoxen.png') ,
@@ -417,7 +417,7 @@ var productsData = [
 
     },
     {
-        "key":"a52",
+        "key":52,
         "name":"RanoxenPlus500",
         "desc":"Naproxen & Esomeprazole",
         "imageS": require('../contents/RanoxenPlus500.png') ,
@@ -425,7 +425,7 @@ var productsData = [
 
     },
     {
-        "key":"a53",
+        "key":53,
         "name":"Ranvit_B",
         "desc":"Vitamin B complex",
         "imageS": require('../contents/Ranvit_B.png') ,
@@ -433,7 +433,7 @@ var productsData = [
 
     },
     {
-        "key":"a54",
+        "key":54,
         "name":"Ranzith",
         "desc":"Azithromycin",
         "imageS": require('../contents/Ranzith.png') ,
@@ -441,7 +441,7 @@ var productsData = [
 
     },
     {
-        "key":"a55",
+        "key":55,
         "name":"Recofast",
         "desc":"Cefuroxime",
         "imageS": require('../contents/Recofast.png') ,
@@ -449,7 +449,7 @@ var productsData = [
 
     },
     {
-        "key":"a56",
+        "key":56,
         "name":"Sartec",
         "desc":"CetrizineDihydrochloride",
         "imageS": require('../contents/Sartec.png') ,
@@ -457,7 +457,7 @@ var productsData = [
 
     },
     {
-        "key":"a57",
+        "key":57,
         "name":"Sedaquil",
         "desc":"Midazolam",
         "imageS": require('../contents/Sedaquil.png') ,
@@ -465,7 +465,7 @@ var productsData = [
 
     },
     {
-        "key":"a58",
+        "key":58,
         "name":"Tacs",
         "desc":"Paracetamol + Caffeine",
         "imageS": require('../contents/Tacs.png') ,
@@ -473,7 +473,7 @@ var productsData = [
 
     },
     {
-        "key":"a59",
+        "key":59,
         "name":"TacsDol",
         "desc":"Paracetamol & Tramadol",
         "imageS": require('../contents/TacsDol.png') ,
@@ -481,7 +481,7 @@ var productsData = [
 
     },
     {
-        "key":"a60",
+        "key":60,
         "name":"Vesocal",
         "desc":"Amlodipine",
         "imageS": require('../contents/Vesocal.png') ,
@@ -489,7 +489,7 @@ var productsData = [
 
     },
     {
-        "key":"a61",
+        "key":61,
         "name":"VesocalPlus",
         "desc":"Amlodipine + Atenolol",
         "imageS": require('../contents/VesocalPlus.png') ,
@@ -497,7 +497,7 @@ var productsData = [
 
     },
     {
-        "key":"a62",
+        "key":62,
         "name":"Xepodox",
         "desc":"cefpodoxime",
         "imageS": require('../contents/Xepodox.png') ,
@@ -505,7 +505,7 @@ var productsData = [
 
     },
     {
-        "key":"a63",
+        "key":63,
         "name":"X_Pectoran",
         "desc":"Bromhexine Hydrochloride",
         "imageS": require('../contents/X_Pectoran.png') ,
@@ -513,7 +513,7 @@ var productsData = [
 
     },
     {
-        "key":"a64",
+        "key":64,
         "name":"Zenil",
         "desc":"Ranitidine",
         "imageS": require('../contents/Zenil.png') ,
